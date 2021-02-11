@@ -1,0 +1,68 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+}
+
+.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 1;
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+
+}
+.navigation li a{
+    margin: 0 0 0 60px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.RSLogo {
+
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    order: 2;
+    margin: 17px 30px;
+}
+
+#caseStudy {
+    overflow: auto;
+    white-space: nowrap;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin:20px;
+}
+
+.CSP {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.workText {
+    margin-bottom: 400px;
+    writing-mode: vertical-rl;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #F1309C;
+}
